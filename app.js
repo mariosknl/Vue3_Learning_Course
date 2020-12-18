@@ -1,19 +1,23 @@
 const app = Vue.createApp({
   data() {
     return {
+      url: "https://marioskanellopoulos.com/",
       showBooks: true,
       books: [
         {
           title: "name of the wind",
           author: "Patrick Rothfuss",
+          img: "assets/1.jpg",
         },
         {
           title: "The way of the kings",
           author: "Brandon Sanderson",
+          img: "assets/2.jpg",
         },
         {
           title: "The Final Empire",
           author: "Brandon Sanderson",
+          img: "assets/3.jpg",
         },
       ],
     };
